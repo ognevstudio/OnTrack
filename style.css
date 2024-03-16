@@ -1,0 +1,38 @@
+.group-number {
+	color: #007BFF; /* Синий цвет для выделения группы */
+	font-weight: bold;
+	margin-left: 5px;
+}
+/* Продолжение предыдущих стилей */
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin: 40px;
+	background-color: #f4f4f4;
+	color: #333;
+}
+
+input[type="text"] {
+	width: 100%;
+	padding: 10px 15px;
+	margin-bottom: 20px;
+	border: 2px solid #ddd;
+	border-radius: 4px;
+	box-sizing: border-box;
+	font-size: 16px;
+}
+
+#results div {
+	background-color: #fff;
+	padding: 10px 15px;
+	border-bottom: 1px solid #eee;
+	animation: fadeIn 0.3s;
+}
+
+#results div:last-child {
+	border-bottom: none;
+}
+
+@keyframes fadeIn {
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
